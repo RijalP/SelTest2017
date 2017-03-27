@@ -1,0 +1,12 @@
+2017-03-25 19:47:32,477 - seltest12.testSeltest -INFO - testLogingFB started
+2017-03-25 19:47:41,031 - seltest12.testSeltest -INFO - LoginFB...completed
+2017-03-25 19:53:24,383 - seltest12.testSeltest -INFO - testLogingFB started
+2017-03-25 19:53:31,488 - seltest12.testSeltest -INFO - LoginFB...completed
+2017-03-25 19:55:59,348 - seltest12.testSeltest -INFO - testLogingFB started
+2017-03-25 19:56:07,536 - seltest12.testSeltest -INFO - LoginFB...completed
+2017-03-27 15:07:59,605 - seltest12.testSeltest -INFO - testLogingFB started
+2017-03-27 15:08:08,985 - seltest12.testSeltest -INFO - LoginFB...completed
+2017-03-27 15:08:08,986 - seltest12.testSeltest -ERROR - logger error
+2017-03-27 15:49:00,567 - seltest12.testSeltest -INFO - testLogingFB started
+2017-03-27 15:49:09,380 - seltest12.testSeltest -INFO - LoginFB...completed
+2017-03-27 15:49:09,381 - seltest12.testSeltest -ERROR - logger error

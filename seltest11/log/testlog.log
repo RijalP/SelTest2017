@@ -18,3 +18,6 @@
 2017-03-27 17:13:19,098 - seltest12.testSeltest -INFO - testLogingFB started
 2017-03-27 17:13:26,116 - seltest12.testSeltest -INFO - LoginFB...completed
 2017-03-27 17:13:26,118 - seltest12.testSeltest -ERROR - logger error
+2017-03-27 17:24:05,985 - seltest12.testSeltest -INFO - testLogingFB started at 1490649845984
+2017-03-27 17:24:13,430 - seltest12.testSeltest -INFO - LoginFB...completed
+2017-03-27 17:24:13,431 - seltest12.testSeltest -ERROR - logger error

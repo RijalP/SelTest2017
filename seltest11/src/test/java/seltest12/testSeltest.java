@@ -24,7 +24,7 @@ public class testSeltest {
 		 PropertyConfigurator.configure("Log4jmy.properties");
 		
 		
-		logger.info("testLogingFB started");
+		logger.info("testLogingFB started at " + System.currentTimeMillis());
 		
 		
 		System.setProperty("webdriver.gecko.driver", "/Users/LajirMac/Downloads/geckodriver");

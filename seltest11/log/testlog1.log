@@ -21,3 +21,13 @@
 2017-03-27 17:24:05,985 [main] INFO seltest12.testSeltest - testLogingFB started at 1490649845984
 2017-03-27 17:24:13,430 [main] INFO seltest12.testSeltest - LoginFB...completed
 2017-03-27 17:24:13,431 [main] ERROR seltest12.testSeltest - logger error
+2017-03-27 17:40:02,733 [main] INFO seltest12.testSeltest - testLogingFB started at CURRENTTIME: 1490650802733
+2017-03-27 17:48:03,321 [main] INFO seltest12.testSeltest - testLogingFB started at CURRENTTIME: 1490651283320
+2017-03-27 17:48:10,781 [main] INFO seltest12.testSeltest - LoginFB...completed
+2017-03-27 17:48:10,782 [main] ERROR seltest12.testSeltest - logger error
+2017-03-27 21:45:57,469 [main] INFO seltest12.testSeltest - testLogingFB started at CURRENTTIME: 1490665557468
+2017-03-27 21:46:05,092 [main] INFO seltest12.testSeltest - LoginFB...completed
+2017-03-27 21:46:05,093 [main] ERROR seltest12.testSeltest - logger error
+2017-03-27 22:06:02,021 [main] INFO seltest12.testSeltest - testLogingFB started at CURRENTTIME of : 2017/03/27 22:06:02
+2017-03-27 22:06:10,595 [main] INFO seltest12.testSeltest - LoginFB...completed at:2017/03/27 22:06:02
+2017-03-27 22:06:10,596 [main] ERROR seltest12.testSeltest - logger error

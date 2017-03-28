@@ -1,6 +1,10 @@
 package seltest12;
 
 import org.testng.annotations.Test;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 //import org.apache.logging.log4j.Logger;
@@ -23,8 +27,12 @@ public class testSeltest {
 		Logger logger =Logger.getLogger(testSeltest.class);
 		 PropertyConfigurator.configure("Log4jmy.properties");
 		
+		 //Date and Time
+		 DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+		 LocalDateTime now = LocalDateTime.now();
+		 System.out.println(dtf.format(now)); //2016/11/16 12:08:43
 		
-		logger.info("testLogingFB started at CURRENTTIME: " + System.currentTimeMillis());
+		logger.info("Test method testLogingFB started at CURRENTTIME of : " + dtf.format(now));
 		
 		
 		System.setProperty("webdriver.gecko.driver", "/Users/LajirMac/Downloads/geckodriver");
@@ -36,7 +44,7 @@ public class testSeltest {
 		
 		login_page.LoginFB("USERNAME", "PASSWORD");
 		 
-		logger.info("LoginFB...completed");
+		logger.info("LoginFB...completed at:" +dtf.format(now));
 		logger.error("logger error");
 		
 		
